@@ -505,6 +505,10 @@
     margin-top: -7px;
     padding: 1.1rem;
     border-top: 8px solid var(--color-secondary);
+    visibility: hidden; /* Add this line */
+  }
+  .blogs .blog:hover .blog-text { /* Add this block */
+    visibility: visible;
   }
   .blogs .blog .blog-text h4 {
     font-size: 1.5rem;
@@ -520,6 +524,7 @@
     line-height: 2rem;
     padding-bottom: 1rem;
   }
+
   
   .contact-content-con {
     display: flex;
