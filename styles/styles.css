@@ -123,6 +123,23 @@
   .controls .active-btn i {
     color: var(--color-white);
   }
+
+  .iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+  }
+  .iframe-container iframe{
+    position: absolute;
+    padding: 20px;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+
   
   .theme-btn {
     top: 5%;
