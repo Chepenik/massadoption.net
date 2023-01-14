@@ -489,7 +489,7 @@
     transform: scale(1);
   }
   
-  #center-box {
+  .center-box {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -499,14 +499,14 @@
     box-sizing: border-box;
 }
 
-#center-box img {
+.center-box img {
   width: 400px;
   height: auto;
   margin-bottom: 1em;
 }
 
 @media only screen and (max-width: 600px) {
-  #center-box img {
+  .center-box img {
       width: 80%;
       height: auto;
       margin-bottom: 1em;
