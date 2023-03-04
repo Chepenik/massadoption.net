@@ -1,0 +1,12 @@
+.green-btn:hover,
+.orange-btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.discount-message {
+    color: #000000;
+    font-family: Poppins, sans-serif;
+    font-size: 3em;
+    text-align: center;
+}
