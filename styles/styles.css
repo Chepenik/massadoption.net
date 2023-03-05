@@ -1046,5 +1046,38 @@ section {
     font-size: 4rem;
   }
 }
-  
+
+.banner {
+  background-color: #f79512;
+  text-align: center;
+  padding: 10% 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  box-sizing: border-box; /* include padding in height calculation */
+}
+
+.banner-text {
+  font-size: 4vw; /* adjust font size as needed */
+  font-family: Poppins;
+  color: black;
+  margin-bottom: 1rem;
+}
+
+.banner-image {
+  max-width: 100%; /* adjust image size as needed */
+  max-height: 100%; /* adjust image size as needed */
+  width: auto;
+  height: auto;
+  margin-bottom: 1rem; /* add some margin between text and image */
+}
+
+.underline {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+
   /*# sourceMappingURL=styles.css.map */
