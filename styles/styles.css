@@ -65,19 +65,21 @@ a {
   padding: 0 20px;
 }
 
-.festbannertwo {
-  height: 40vh;
-  max-width: 100%;
-  background-color: #1c1c1c;
-  background-image: url('https://nostr.build/p/nb2115.jpeg');
-  background-size: cover;
-  background-position: center;
+.wx-button {
+  display: inline-block;
+  background-color: orange;
   color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 2rem;
-  padding: 0 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.wx-button:hover {
+  background: black !important;
+  color: orange !important;
 }
 
 header {
