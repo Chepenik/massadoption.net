@@ -65,6 +65,12 @@ a {
   padding: 0 20px;
 }
 
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .wx-button {
   display: inline-block;
   background-color: orange;
@@ -75,6 +81,7 @@ a {
   font-weight: bold;
   border-radius: 20px;
   transition: background-color 0.3s, color 0.3s;
+  margin: 10px 0;
 }
 
 .wx-button:hover {
@@ -97,6 +104,34 @@ section {
   top: 0;
   padding: 3rem 18rem;
 }
+
+/* Media queries for mobile devices */
+@media screen and (max-width: 767px) {
+  .festbanner {
+    height: auto;
+    font-size: 1.5rem;
+    padding: 30px 20px;
+  }
+
+  .button-container {
+    margin-bottom: 20px;
+  }
+
+  .wx-button {
+    font-size: 1.2rem;
+    padding: 8px 16px;
+  }
+
+  header {
+    min-height: auto;
+    padding: 0 20px;
+  }
+
+  section {
+    padding: 3rem 1rem;
+  }
+}
+
 
 .container {
   display: none;
@@ -1110,6 +1145,7 @@ section {
   text-decoration: underline;
   font-weight: bold;
 }
-
-
-  /*# sourceMappingURL=styles.css.map */
+.testing{
+  display: block;
+  margin: 0 auto;
+}

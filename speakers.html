@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Festival Speakers</title>
+  <style>
+body {
+font-family: sans-serif;
+background-color: #FFF8D6;
+margin: 0;
+padding: 0;
+}
+
+.header {
+background-color: #FF6969;
+padding: 20px;
+text-align: center;
+color: white;
+}
+
+.header h1 {
+font-size: 36px;
+}
+
+.speaker-group {
+margin-bottom: 40px;
+text-align: center; /* Add text alignment to center */
+}
+
+.speaker-group h2 {
+text-align: center;
+font-size: 24px;
+border: 3px solid #333;
+display: inline-block;
+padding: 5px 10px;
+margin-bottom: 20px;
+}
+
+.speakers {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+padding: 20px;
+}
+
+.speaker {
+background-color: #000000;
+border-radius: 50%;
+width: 200px;
+height: 200px;
+overflow: hidden;
+margin: 15px;
+text-align: center;
+position: relative;
+}
+
+.speaker img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.speaker-name {
+font-size: 16px;
+margin-top: 10px;
+color: #fb9b00;
+position: absolute; /* Add absolute positioning /
+bottom: -25px; / Move the name below the image /
+width: 100%; / Make the name span the entire width of the speaker div /
+background-color: white; / Add a background color /
+padding: 5px 0; / Add some padding */
+}
+
+@media (max-width: 767px) {
+.speakers {
+flex-direction: column;
+align-items: center;
+}
+
+.speaker {
+margin-bottom: 30px;
+}
+}
+
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Festival Speakers</h1>
+  </div>
+  <div class="speaker-group">
+    <h2>In-Person Speakers</h2>
+    <div class="speakers">
+      <!-- In-person speaker divs -->
+
+      <div class="speaker">
+        <div class="speaker-image">
+          <a href="https://twitter.com/BJdichter" target="_blank">
+            <img src="imagefile/bjdichter.jpeg" alt="BJ Dichter">
+          </a>
+        </div>
+        <div class="speaker-info">
+          <p class="speaker-name">BJ Dichter</p>
+        </div>
+      </div>
+  
+      <div class="speaker">
+        <div class="speaker-image">
+          <a href="https://twitter.com/DAAF17" target="_blank">
+            <img src="imagefile/dfoley.jpg" alt="David Foley">
+          </a>
+        </div>
+        <div class="speaker-info">
+          <p class="speaker-name">David Foley</p>
+        </div>
+      </div>
+
+      <div class="speaker">
+        <div class="speaker-image">
+          <a href="https://twitter.com/FossGregfoss" target="_blank">
+            <img src="imagefile/gregfos.jpeg" alt="Greg Foss">
+          </a>
+        </div>
+        <div class="speaker-info">
+          <p class="speaker-name">Greg Foss</p>
+        </div>
+      </div>
+  
+      <div class="speaker">
+        <div class="speaker-image">
+          <a href="https://twitter.com/LawrenceLepard" target="_blank">
+            <img src="imagefile/ll.jpeg" alt="Lawrence Lepard">
+          </a>
+        </div>
+        <div class="speaker-info">
+          <p class="speaker-name">Lawrence Lepard</p>
+        </div>
+      </div>
+  
+      <div class="speaker">
+        <div class="speaker-image">
+          <a href="https://twitter.com/cjasonmaier" target="_blank">
+            <img src="imagefile/jason maier.jpeg" alt="Jason Maier">
+          </a>
+        </div>
+        <div class="speaker-info">
+          <p class="speaker-name">Jason Maier</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+  <div class="speaker-group">
+    <h2>Virtual Speakers</h2>
+    <div class="speakers">
+      <!-- Virtual speakers -->
+      <div class="speaker">
+        <div class="speaker-image">
+          <a href="https://twitter.com/NSmolenski" target="_blank">
+            <img src="imagefile/nat.jpeg" alt="Lawrence Lepard">
+          </a>
+        </div>
+        <div class="speaker-info">
+          <p class="speaker-name">Natalie Smolenski </p>
+        </div>
+      </div>
+
+      <div class="speaker">
+        <div class="speaker-image">
+          <a href="https://twitter.com/gladstein" target="_blank">
+            <img src="imagefile/alex.jpeg" alt="Lawrence Lepard">
+          </a>
+        </div>
+        <div class="speaker-info">
+          <p class="speaker-name">Alex Gladstein</p>
+        </div>
+      </div>
+
+      <div class="speaker">
+        <div class="speaker-image">
+          <a href="https://twitter.com/knutsvanholm" target="_blank">
+            <img src="imagefile/knut.jpg" alt="Lawrence Lepard">
+          </a>
+        </div>
+        <div class="speaker-info">
+          <p class="speaker-name">Knut Svanholm</p>
+        </div>
+      </div>
+
+      <div class="speaker">
+        <div class="speaker-image">
+          <a href="https://twitter.com/raypaxful" target="_blank">
+            <img src="imagefile/rayyousef.jpeg" alt="Lawrence Lepard">
+          </a>
+        </div>
+        <div class="speaker-info">
+          <p class="speaker-name">Ray Youssef</p>
+        </div>
+      </div>
+
+      <div class="speaker">
+        <div class="speaker-image">
+          <a href="https://twitter.com/OKIN_17" target="_blank">
+            <img src="imagefile/okin.jpg" alt="Lawrence Lepard">
+          </a>
+        </div>
+        <div class="speaker-info">
+          <p class="speaker-name">Okin</p>
+        </div>
+      </div>
+  </div>
+</body>
+</html>
