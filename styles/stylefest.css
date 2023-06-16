@@ -260,3 +260,9 @@ h3 {
         color: black;
         cursor: pointer;
     }
+      
+      #bottom-section h4, #bottom-section img {
+        margin: 20px;
+        width: auto;
+      }
+      
